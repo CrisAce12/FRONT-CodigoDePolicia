@@ -1,0 +1,414 @@
+/*
+
+*************
+/////////////
+MOBILE STYLES
+*************
+/////////////
+
+*/
+
+
+/*
+///////////
+MAIN STYLES
+///////////
+*/
+
+/* FIRST SECTION */
+
+.main--home > .main__section--first{
+
+    width: 100%;
+    height: 19em;
+
+    background-image: url(../img/fondoHome1--mobile.png);
+    background-size: auto 19em;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* SECOND SECTION */
+
+.main--home > .main__section--second{
+
+    width: 100%;
+    height: 5em;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #011627ff;
+
+}
+
+h1{
+
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+    color: white;
+
+}
+
+/* THIRD SECTION */
+
+.main--home > .main__section--third{
+
+    width: 100%;
+    height: 65em;
+
+    display: grid;
+
+    grid-template-rows: repeat(3, 1fr);
+
+    padding: 1.5em 0;
+
+}
+
+.main--home > .main__section--third div{
+
+    width: 75%;
+    height: 85%;
+
+    align-self: center;
+    justify-self: center;
+
+    display: grid;
+
+    grid-template-rows: 40% 20% 40%;
+
+    padding: 0.4rem;
+
+}
+
+.main--home > .main__section--third div h2{
+
+    width: 80%;
+
+    align-self: center;
+    justify-self: center;
+
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    font-size: 2.9rem;
+
+    text-align: center;
+
+}
+
+.main--home > .main__section--third div p{
+
+    width: 80%;
+
+    align-self: center;
+    justify-self: center;
+
+    font-size: 1.15em;
+    text-align: center;
+
+}
+
+.main--home > .main__section--third div a{
+
+    width: 75%;
+    height: 2.5rem;
+
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    font-size: 1.5rem;
+
+    color: white;
+
+    text-decoration: none;
+    text-align: center;    
+    
+    background-color: #011627ff;
+
+}
+
+.section__div--codigo{
+
+    background-color: #4da9f9ff;
+
+    color: #011627ff;
+
+}
+
+.section__div--tramites{
+
+    border: 3px solid #011627ff;
+
+    background-color: white;
+
+    color: #011627ff;
+
+}
+
+.section__div--noticias{
+
+    background-color: #8dd35fff;
+
+    color: white;
+
+}
+
+/* FORTH SECTION */
+
+.main__section--forth{
+
+    width: 100%;
+    height: 2.5em;
+
+    background-color: #011627ff;
+
+}
+
+/* FIFTH SECTION */
+
+.main--home > .main__section--fifth{
+
+    width: 100%;
+    height: 30em;
+
+    display: grid;
+
+    grid-template-rows: 55% 15% 15% 15%;
+
+    background-image: url(../img/fondoHome2.png);
+    background-size: cover;
+    background-position: center;
+
+    padding: 2em 0;
+
+}
+
+.main--home > .main__section--fifth div{
+
+    width: 80%;
+    height: 80%;
+
+    background-image: url(../img/LogoFAQ.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    align-self: center;
+    justify-self: center;
+
+}
+
+.main--home > .main__section--fifth h2{
+
+    width: 80%;
+    height: 1em;
+
+    align-self: center;
+    justify-self: center;
+
+    text-align: center;
+
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    font-size: 2rem;
+
+    color: white;
+
+    background-color: #011627ff;
+
+    padding: 0.2em;
+
+}
+
+.main--home > .main__section--fifth p{
+
+    width: 80%;
+
+    align-self: center;
+    justify-self: center;
+
+    text-align: center;
+
+    font-size: 1.15em;
+
+    color: #011627ff;
+
+}
+
+.main--home > .main__section--fifth a{
+
+    width: 60%;
+    height: 1.2em;
+
+    align-self: center;
+    justify-self: center;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    font-size: 1.5rem;
+
+    color: white;
+
+    background-color: #011627ff;
+
+    border-radius: 1em;
+
+    padding: 0.1em;
+
+}
+
+@media(min-width:60rem){
+
+    body{
+
+        width: 100%;
+
+        display: grid;
+    
+        grid-template-rows: 6em 125em 7em;
+    
+    }
+
+    /*
+    ///////////
+    MAIN STYLES
+    ///////////
+    */
+
+    .main--home{
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 40em 7em 41em 3em 34em;
+
+    }
+
+    .main--home > .main__section--first{
+
+        width: 100%;
+        height: 40em;
+
+        background-image: url(../img/fondoHome1.png);
+        background-size: auto 40em;
+
+    }
+
+    .main--home > .main__section--second{
+
+        width: 100%;
+        height: 7em;
+
+    }
+
+    h1{
+
+        font-size: 2rem;
+
+    }
+
+    .main--home > .main__section--third{
+
+        width: 100%;
+        height: 35em;
+
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+
+        padding: 3em 0;
+
+    }
+    
+    .main--home > .main__section--third div h2{
+    
+        font-weight: normal;
+        font-size: 3.5rem;
+    
+        margin-top: 50px;
+
+    }
+    
+    .main--home > .main__section--third div p{
+    
+        width: 80%;
+
+        font-size: 1.4rem;
+    
+    }
+    
+    .main--home > .main__section--third div a{
+    
+        height: 3rem;
+
+        font-size: 2.2rem;
+    
+    }
+
+    .main--home > .main__section--forth{
+
+        height: 3em;
+
+    }
+
+    .main--home > .main__section--fifth{
+
+        grid-template-columns: 65% 35%;
+
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    .main--home > .main__section--fifth div{
+
+        grid-column: 2/3;
+        grid-row: 1/4;
+    
+    }
+    
+    .main--home > .main__section--fifth h2{
+    
+        width: 55%;
+        height: 1em;
+        
+        font-size: 2.5rem;
+
+        align-self: flex-end;
+    
+    }
+    
+    .main--home > .main__section--fifth p{
+    
+        width: 60%;
+
+        font-size: 1.3em;
+    
+    }
+    
+    .main--home > .main__section--fifth a{
+    
+        width: 50%;
+
+        font-size: 2em;
+    
+        align-self: flex-start;
+
+    }
+
+}
